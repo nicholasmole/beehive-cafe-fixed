@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js lte-ie10">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+		<link rel="manifest" href="/img/site.webmanifest">
+		<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/img/favicon.ico">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="/img/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" type="image/png" href="/img/mole_favicon.png">
+		<title>Beehive Responive Site</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<noscript>
+			<h3>Is it broken?</h3>
+			<p>It looks like something broken</p>
+			<p>Javascript needs to work - and its not.</p>
+			<p>What did you do?!</p>
+		</noscript>
+	</body>
+	
+	<script>
+		  if ('serviceWorker' in navigator) {
+				navigator.serviceWorker
+				.register('/service-worker.js')
+				.then(function() { });
+			}
+	</script>
+</html>
