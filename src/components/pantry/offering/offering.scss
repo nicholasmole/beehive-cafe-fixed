@@ -1,0 +1,62 @@
+.cafe-body-container {
+	background-color: #FBF8DB;
+	color: #AC6F29;
+	font-size: 24px;
+	padding: 20px;
+}
+.cafe-body-dots {
+	border-top: 5px dashed #FAA41A;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.cafe-body-text {
+	line-height: 1.5em;
+}
+.cafe-body-text-lower {
+	line-height: 2.5em;
+  font-size: 17px;
+}
+
+.cafe-body-text-bold {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pantry-body-title-container {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.cafe-body-mega-title-text-bold {
+	display: block;
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.cafe-body-title-text {
+	color: #faa41a;
+	font-size: 32px;
+}
+
+.pantry-body-text-bold {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.pantry-cake-img {
+	float: right;
+}
+
+.pantry-body-container-title {
+	.cafe-body-title-text {
+		font-size: 24px !important;
+	}
+}
+
+@media screen and (min-width: 769px) { 
+	.cafe-body-container {
+		flex: 4 0 57%;
+		margin: 0px;
+	}
+
+}

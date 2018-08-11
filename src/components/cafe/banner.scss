@@ -1,0 +1,13 @@
+.banner-container {
+	margin-top: 64px;	
+	margin-bottom: -4px;
+	img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) { 
+	.banner-container {
+		flex: 1 0 100%;
+	}
+}

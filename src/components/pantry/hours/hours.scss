@@ -1,0 +1,24 @@
+.cafe-hours-container {
+	text-align: center;
+	font-size: 32px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: #FED485;
+}
+
+.cafe-container-button-hours,
+.cafe-container-button-extra {
+	background-color: #EA9A2F;
+	margin: 32px auto;
+	padding: 28px;
+	font-weight: bold;
+	
+}
+
+.cafe-container-button-hours {
+	max-height: 64px;
+}
+
+.cafe-container-button-extra {
+	background-color: #FBF8DB;
+}

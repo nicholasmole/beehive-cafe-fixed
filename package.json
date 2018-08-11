@@ -8,6 +8,7 @@
     "preact-compat": "^3.18.0",
     "preact-redux": "^2.0.3",
     "preact-router": "^2.6.0",
+    "react-loadable": "^5.4.0",
     "redux": "^4.0.0",
     "try-require": "^1.2.1"
   },

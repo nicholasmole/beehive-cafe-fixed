@@ -1,7 +1,7 @@
 import { Provider } from 'preact-redux';
 import { h, render } from 'preact';
 
-import './index.css';
+import './index.scss';
 import {createStore} from 'redux';
 import reducer from './ducks/index';
 import App from './containers/app/app';

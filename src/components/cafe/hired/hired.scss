@@ -1,0 +1,32 @@
+.cafe-hired-container {
+	background-color: #FBF8DB;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.cafe-hired-text-container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.cafe-hired-title {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 26px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	
+}
+
+.cafe-hired-text {
+	a {
+		margin-left: 5px;
+	}
+}
+
+@media screen and (min-width: 769px) { 
+	.cafe-hired-container {
+		margin: 16px auto;
+	}
+}

@@ -144,9 +144,6 @@ let buildConfig = {
 							}
 						},
 						{
-							loader: 'postcss-loader'
-						},
-						{
 							loader: 'sass-loader' // compiles Sass to CSS
 						}
 					]

@@ -1,0 +1,57 @@
+.cafe-extra-container {
+	text-align: center;
+	font-size: 32px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: #FEC148;
+}
+
+.cafe-extra-button-image-container {
+	margin: 32px auto;
+	img {
+		width: 100%;
+		max-width: 360px;
+	}
+}
+
+.cafe-extra-button-extra {
+	background-color: #FBF8DB;
+	margin: 0 auto;
+	max-width: 400px;
+
+	font-weight: bold;
+	font-size: 16px;
+	> div {
+		padding: 19px;
+	}
+}
+
+.cafe-extra-set-container {
+	margin: 32px auto;
+}
+
+@media screen and (min-width: 769px) { 
+	.cafe-extra-container {
+		background-color: #FFD580;
+		display: flex;
+		flex-wrap: wrap;
+		flex: 3 0 12%;
+	}
+	.cafe-extra-button-image-container {
+		margin-top: 0px !important;
+	}
+	.cafe-extra-button-image-container img {
+		height: 159px;
+		width: 90%;
+	}
+	.cafe-extra-button-extra { 
+		background-color: #FFD580;
+		> div {
+			font-size: 14px !important;
+		}
+	}
+	.cafe-extra-set-container {
+		flex: 1 0 12%;
+		margin-top: 0px !important;
+	}
+}

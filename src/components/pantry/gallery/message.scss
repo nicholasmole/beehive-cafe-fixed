@@ -1,0 +1,46 @@
+.cafe-menu-container {
+	background-color: #FBF8DB;
+}
+
+.cafe-menu-serve-container {
+	color: #F7A130;
+	text-align: center;
+	margin: 32px;
+	font-size: 22px;
+}
+
+.cafe-menu-serve-time {
+	font-size: 42px;
+}
+
+.cafe-menu-link-container {
+	background-color: #F7CE82;
+	font-size: 16px;
+	color: #F7A130;
+	text-align: center;
+	display: flex;
+}
+
+.cafe-menu-link-container-button {
+	flex: 1 0 13%;
+	color: #ac6f29;
+	padding: 12px;
+	border-right: 12px solid rgba(77, 77, 77, 0.05);
+	border-left: 12px solid rgba(255, 255, 255, 0.3);
+	a {
+		color: #F7A130 !important;
+	}
+}
+
+.cafe-menu-active {
+	color: #F7A130 !important;
+	background-color: #FBF8DB;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.cafe-menu-serve-container-get-color {
+	background-color: #FBF8DB;
+	margin: 0px;
+	padding: 32px;
+}

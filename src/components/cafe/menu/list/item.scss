@@ -1,0 +1,31 @@
+.cafe-list-container {
+	width: 85%;
+	margin: 0 auto;
+	div {
+		font-family: Helvetica, Arial, sans-serif !important;
+		color: #AC6F29;
+		line-height: 1.5em;
+		font-size: 20px;
+	}
+}
+
+.cafe-list-food-title {
+	font-weight: bold;
+}
+
+.cafe-list-food-container {
+	padding-bottom: 24px;
+
+}
+
+.cafe-list-food-desc {
+	display: flex;
+	padding-top: 12px;
+
+	.cafe-list-food-desc-text {
+		flex: 6 0 0;
+	}
+	.cafe-list-food-desc-price {
+		flex: 1 0 0;
+	}
+}

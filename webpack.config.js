@@ -78,7 +78,7 @@ let browserConfig = {
 				})
 			},
 			{
-				test: /\.scss|sass$/,
+				test: /\.scss$/,
 				use: ExtractTextPlugin.extract({
 					fallback: 'style-loader',
 					use: [
@@ -95,9 +95,6 @@ let browserConfig = {
 									removeAll: true
 								}
 							}
-						},
-						{
-							loader: 'postcss-loader'
 						},
 						{
 							loader: 'sass-loader' // compiles Sass to CSS
@@ -177,11 +174,11 @@ let browserConfig = {
 				to: path.resolve(__dirname, 'public/img'),
 				toType: 'dir'
 			},
-			{
-				from: path.resolve(__dirname, 'src/service-worker.js'),
-				to: path.resolve(__dirname, 'public/service-worker.js'),
-				toType: 'file'
-			},
+			// {
+			// 	from: path.resolve(__dirname, 'src/service-worker.js'),
+			// 	to: path.resolve(__dirname, 'public/service-worker.js'),
+			// 	toType: 'file'
+			// },
 			{
 				from: path.resolve(__dirname, 'src/manifest.json'),
 				to: path.resolve(__dirname, 'public/manifest.json'),
