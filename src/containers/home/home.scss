@@ -9,6 +9,7 @@
 .home-content-container {
 	background-image: url(/img/honey.gif);
 	padding: 20px;
+	background-size: cover;
 }
 .home-container-button {
 	background-color: #FBF8DB;
@@ -53,4 +54,17 @@
 	margin-top: 13px;
 	margin-bottom: -13px;
 	font-size: 19px;
+}
+
+@media screen and (min-width: 769px) {  
+
+	.content-container {
+		padding: 35px;
+	}
+	.home-content-container {
+		display: flex;
+		padding: 35px;
+		max-width: 900px;
+    margin: 0 auto;
+	}
 }
