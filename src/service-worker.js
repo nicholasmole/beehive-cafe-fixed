@@ -7,6 +7,7 @@ var filesToCache = [
  "index.html",
  "manifest.json",
  "/src",
+ "/src/0.js",
  "service-worker.js",
 ];
 

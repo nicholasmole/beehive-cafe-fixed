@@ -36,6 +36,11 @@ class App extends Component {
     super(props);
   }
   
+  componentDidMount() {
+    const preApp = document.querySelector('.PreApp');
+    preApp.parentNode.removeChild(preApp);
+  }
+
   render() {
     console.warn(this.props);
       return (

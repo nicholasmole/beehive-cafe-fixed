@@ -4,12 +4,32 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">	
 		<link rel="icon" type="image/png" href="/img/hivelogo.gif">
 		<title>Beehive Responive Site</title>
 	</head>
 	<body>
-		<div id="root"></div>
+		<div id="root">
+			<div class="PreApp">
+				<div class="home-container">
+					<div class="content-container">
+						<div class="home-content-container">
+							<a class="home-container-button" href="/cafe">
+								the Beehive Cafe
+							</a>
+							<img class="home-container-logo" src="/img/hivelogo.gif" alt="Beehive Blank logo">
+							<a class="home-container-button" href="/pantry">
+								the Beehive Pantry
+							</a>
+						</div>
+						<a class="home-order-online-button">
+							Order Online
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
 		<noscript>
 			<h3>Is it broken?</h3>
 			<p>It looks like something broken</p>
@@ -19,10 +39,10 @@
 	</body>
 	
 	<script>
-		  // if ('serviceWorker' in navigator) {
-			// 	navigator.serviceWorker
-			// 	.register('/service-worker.js')
-			// 	.then(function() { });
-			// }
+		  if ('serviceWorker' in navigator) {
+				navigator.serviceWorker
+				.register('/service-worker.js')
+				.then(function() { });
+			}
 	</script>
 </html>
